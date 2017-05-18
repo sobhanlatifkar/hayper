@@ -1,4 +1,4 @@
-package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+﻿package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 URL = require('socket.url')
@@ -50,8 +50,8 @@ _ارسال میکند یه عکس_
 
 @oOosobhanoOo
 
-[Source](https://github.com/ferisystem/markdown.git) 
-[Admin](http://telegram.me/ferisystem)
+[channel](http://telegram.me/sobhanlatifkar) 
+[Admin](http://telegram.me/oOosobhanoOo)
 ]] 
 
 -------
