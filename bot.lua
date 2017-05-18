@@ -1,11 +1,11 @@
-﻿package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = "put your bot token"
+local bot_api_key = "366919618:AAEHbsviHEO4SGsSm69P7Gxt0cIZo-6WTQs"
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[سلام
@@ -46,6 +46,10 @@ _ارسال میکند یه استیکر_
 *photo to sticker*
 _ارسال میکند یه عکس_
 
+سازنده ربات 
+
+@oOosobhanoOo
+
 [Source](https://github.com/ferisystem/markdown.git) 
 [Admin](http://telegram.me/ferisystem)
 ]] 
@@ -56,7 +60,7 @@ _ارسال میکند یه عکس_
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {139946685,112524566}-- put your id here
+  local admins = {247789358,366919618}-- put your id here
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
